@@ -1,0 +1,39 @@
+# macOS
+.DS_Store
+._*
+
+# Временные файлы
+*.tmp
+*.swp
+*.swo
+*~
+
+# Конфиденциальные данные
+.env
+.env.*
+secrets/
+*.pem
+*.key
+*.crt
+*.secret
+*.token
+
+# Vagrant
+.vagrant/
+
+# Логи
+*.log
+logs/
+
+# Файлы IDE
+.vscode/
+.idea/
+*.iml
+
+# Исходный код Java (защищён авторским правом)
+*.java
+*.class
+*.jar
+target/
+build/
+
